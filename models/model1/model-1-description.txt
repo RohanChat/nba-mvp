@@ -1,0 +1,21 @@
+Model 1 Description:
+Input: 
+A vector representing a 4 min slice of an NBA game 
+
+Passes through a feed forward neural network
+
+Output: final score of the game 
+
+
+
+Questions:
+
+How should we represent the vector?
+    Simplest Model: 
+    Just count the occurences of each event (ie: Shots made, shots missed etc.), keep a running score value
+    Flatten the vector into a number of slices x number of features 
+    Feed to the neural network 
+    Output a prediction.
+
+What should we do:
+    Use AutoML to try to optimize parameters
